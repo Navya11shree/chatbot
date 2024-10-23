@@ -1,11 +1,11 @@
 
 import React from 'react';
-import DataGPTInterface from './components/DataGPTInterface';
+import CareGPT from './components/CareGPT';
 
 const App: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <DataGPTInterface/>
+      <CareGPT/>
     </div>
   );
 };

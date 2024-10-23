@@ -1,8 +1,8 @@
 import React from 'react';
 import { X } from 'lucide-react';
 
-const DataGPTInterface = () => {
-  return (
+const CareGPT = () => {
+return (
     <div className="min-w-[600px] max-w-7xl mx-auto p-4 bg-white rounded-xl  border border-blue-500 shadow min-h-[600px] flex flex-col relative">
       
     
@@ -50,4 +50,4 @@ const DataGPTInterface = () => {
   );
 };
 
-export default DataGPTInterface;
+export default CareGPT;
