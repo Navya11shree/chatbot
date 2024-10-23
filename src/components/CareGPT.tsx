@@ -1,5 +1,4 @@
 import React from 'react';
-import { X } from 'lucide-react';
 
 const CareGPT = () => {
 return (
@@ -32,12 +31,6 @@ return (
 
       {/* Connection Modal */}
       <div className="absolute inset-0 bg-white z-10 rounded-xl flex-col hidden">
-        <div className="p-4 border-b flex justify-between items-center">
-          <h2 className="text-lg font-medium">Select Data Connection</h2>
-          <button className="text-gray-500 hover:text-gray-700">
-            <X size={20} />
-          </button>
-        </div>
         <div className="p-4 flex-1">
           <div className="space-y-3">
             <button className="w-full p-4 border rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-colors flex items-center justify-between">
